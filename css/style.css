@@ -1,1 +1,18 @@
+body {
+  background-image: url(../img/bg-body.jpg);
+}
 
+a, a:hover {
+  text-decoration: none;
+}
+
+#container {
+  margin: 0 auto;
+  width: 860px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+#content {
+  background: white;
+}
