@@ -75,3 +75,85 @@ a, a:hover {
   background: url(../img/personal-info-sep.png) no-repeat left top;
   padding: 20px 0 19px 20px;
 }
+.personal-info li {
+  line-height: 12px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  float: left;
+  width: 293px;
+}
+
+.personal-info li label {
+  color: white;
+  float: left;
+  padding: 4px 7px;
+  font-weight: 550;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-family: "Roboto condensed", sans-serif;
+}
+
+.personal-info li span {
+  float: right;
+  width: 220px;
+  padding-top: 4px;
+  font-weight: 400;
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+
+header {
+  position: relative;
+  overflow: visible;
+}
+
+span.socials-text {
+  position: absolute;
+  right: 0px;
+  color: white;
+  padding: 2px 9px;
+  font-size: 22px;
+  cursor: pointer;
+  top: 10px;
+  border-radius: 70px;
+}
+
+ul.social-icons {
+  opacity: 0;
+  top: -1px;
+  left: -7px;
+  position: relative;
+  transition: all ease 1s;
+  z-index: -1;
+}
+
+.pulse-button {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  line-height: 15px;
+  border: none;
+  box-shadow: 0 0 0 0 rgb(101, 101, 101);
+  background-color: #cf455c;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+}
+
+.menu {
+  height: 100px;
+  background-color: #dfdfdf;
+  position: relative;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
+.tabs {
+  height: 116px;
+  position: absolute;
+  margin-top: -14px;
+  z-index: 100;
+}
+
