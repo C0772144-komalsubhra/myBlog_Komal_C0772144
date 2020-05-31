@@ -1,1 +1,22 @@
+header {
+  position: relative;
+  overflow: visible;
+}
+
+button:focus {
+  outline: 0px dotted;
+  outline: 0px auto -webkit-focus-ring-color;
+}
+
+span.socials-text {
+  position: absolute;
+  right: 0px;
+  color: #fff;
+  padding: 2px 9px;
+  font-size: 22px;
+  cursor: pointer;
+  top: 10px;
+  border-radius: 66px;
+  /* height: 30px; */
+}
 
