@@ -10,6 +10,5 @@ References:-
 
 5. @keyframes used to bounce when click
 
-Screenshots:-
 
-search-ms:displayname=Search%20Results%20in%20Desktop&crumb=location:C%3A%5CUsers%5Cwin10%5CDesktop\images
+
